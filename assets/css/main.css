@@ -222,7 +222,8 @@ a.card:hover, .service-card:hover, .product-card:hover, .project-card:hover, .po
 
 /* ---------- products / projects / blog ---------- */
 .catalogue-tools { position: sticky; top: var(--header-h); z-index: 20; background: rgba(10,10,10,.92); backdrop-filter: blur(10px); padding: 12px 0; margin-bottom: 8px; display: grid; gap: 10px; border-bottom: 1px solid var(--line); }
-.chip-nav { display: flex; gap: 8px; overflow-x: auto; padding-bottom: 4px; scrollbar-width: thin; }
+.catalogue-tools > * { min-width: 0; }
+.chip-nav { max-width: 100%; list-style: none; margin: 0; display: flex; gap: 8px; overflow-x: auto; padding-bottom: 4px; scrollbar-width: thin; }
 .chip-nav a { display: inline-flex; align-items: center; gap: .45em; white-space: nowrap; padding: .5em 1em; border: 1px solid var(--line-strong); border-radius: 999px; color: var(--text); text-decoration: none; font-size: .88rem; font-weight: 600; background: rgba(255,255,255,.03); }
 .chip-nav a:hover { border-color: var(--blue); color: var(--blue); }
 .chip-nav .icon { width: 1.1em; height: 1.1em; color: var(--blue); }
