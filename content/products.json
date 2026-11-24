@@ -1,0 +1,504 @@
+{
+  "_help": "Add/edit products here. Leave price null to show 'Ask for Price'. Set price to a string like '₦25,000' to show it. image = file base name in assets/img (e.g. product-solar-ptz) with -480/-960 .webp variants. Never publish prices you have not confirmed.",
+  "categories": [
+    {
+      "id": "cctv",
+      "name": "CCTV & Security",
+      "icon": "camera",
+      "intro": "Cameras, recorders and everything that connects them.",
+      "items": [
+        {
+          "id": "dome-cctv",
+          "name": "Dome CCTV cameras",
+          "description": "Low-profile cameras suited to ceilings and covered areas.",
+          "features": [
+            "Discreet look",
+            "Indoor and covered outdoor use",
+            "Night-vision models available"
+          ],
+          "availability": "Confirm on enquiry",
+          "price": null,
+          "image": null
+        },
+        {
+          "id": "bullet-cctv",
+          "name": "Bullet CCTV cameras",
+          "description": "Visible, directional cameras for walls, gates and compounds.",
+          "features": [
+            "Clear deterrent effect",
+            "Outdoor-rated models available",
+            "Fixed viewing angle"
+          ],
+          "availability": "Confirm on enquiry",
+          "price": null,
+          "image": null
+        },
+        {
+          "id": "ptz-cameras",
+          "name": "PTZ cameras",
+          "description": "Pan-tilt-zoom cameras that cover wide areas and follow activity.",
+          "features": [
+            "Wide-area coverage",
+            "Remote pan, tilt and zoom",
+            "Suited to compounds and yards"
+          ],
+          "availability": "Confirm on enquiry",
+          "price": null,
+          "image": null
+        },
+        {
+          "id": "solar-ptz",
+          "name": "Solar PTZ cameras",
+          "description": "Solar-powered, 4G-capable PTZ cameras for places without easy mains power. Model shown is an example.",
+          "features": [
+            "Solar panel included in this model",
+            "4G SIM-capable model shown",
+            "Dual-lens design"
+          ],
+          "availability": "Confirm on enquiry",
+          "price": null,
+          "image": "product-solar-ptz",
+          "imageAlt": "Dual-lens 4G solar PTZ camera with solar panel and retail box"
+        },
+        {
+          "id": "ai-cameras",
+          "name": "AI security cameras",
+          "description": "Cameras with smart detection that can tell people and vehicles from general movement.",
+          "features": [
+            "Motion and person alerts (model dependent)",
+            "Fewer false alarms than basic motion",
+            "Phone notifications on supported models"
+          ],
+          "availability": "Confirm on enquiry",
+          "price": null,
+          "image": null
+        },
+        {
+          "id": "compact-cameras",
+          "name": "Compact security cameras",
+          "description": "Small-format cameras for lawful security use. Buyers are responsible for complying with privacy and recording laws, including obtaining consent where required, and must never place cameras where people expect privacy.",
+          "features": [
+            "Small footprint",
+            "Wi-Fi models with phone viewing",
+            "For lawful security use only"
+          ],
+          "availability": "Confirm on enquiry",
+          "price": null,
+          "image": null,
+          "note": "Lawful security use only."
+        },
+        {
+          "id": "dvr",
+          "name": "DVRs",
+          "description": "Digital video recorders for analogue and hybrid camera systems.",
+          "features": [
+            "Multiple channel sizes",
+            "Local recording",
+            "Remote viewing on supported models"
+          ],
+          "availability": "Confirm on enquiry",
+          "price": null,
+          "image": null
+        },
+        {
+          "id": "nvr",
+          "name": "NVRs",
+          "description": "Network video recorders for IP camera systems.",
+          "features": [
+            "Works with IP cameras",
+            "PoE models available",
+            "Scalable channel counts"
+          ],
+          "availability": "Confirm on enquiry",
+          "price": null,
+          "image": null
+        },
+        {
+          "id": "storage",
+          "name": "Storage drives",
+          "description": "Surveillance-grade hard drives for continuous recording.",
+          "features": [
+            "Built for 24/7 writing",
+            "Capacity matched to camera count",
+            "Fitted and tested on request"
+          ],
+          "availability": "Confirm on enquiry",
+          "price": null,
+          "image": null
+        },
+        {
+          "id": "surv-accessories",
+          "name": "Surveillance accessories",
+          "description": "Mounts, junction boxes, housings and other fittings.",
+          "features": [
+            "Neater installs",
+            "Weather protection",
+            "Replacement parts"
+          ],
+          "availability": "Confirm on enquiry",
+          "price": null,
+          "image": null
+        },
+        {
+          "id": "cctv-cables",
+          "name": "Cables",
+          "description": "Coaxial, network and power cabling for camera installations.",
+          "features": [
+            "Sold by length or roll",
+            "Suited to indoor and outdoor runs"
+          ],
+          "availability": "Confirm on enquiry",
+          "price": null,
+          "image": null
+        },
+        {
+          "id": "connectors",
+          "name": "Connectors",
+          "description": "BNC, DC and network connectors and adapters.",
+          "features": [
+            "Reliable terminations",
+            "Common sizes in stock on enquiry"
+          ],
+          "availability": "Confirm on enquiry",
+          "price": null,
+          "image": null
+        },
+        {
+          "id": "power-supplies",
+          "name": "Power supplies",
+          "description": "Adapters and power distribution for cameras and recorders.",
+          "features": [
+            "Correct voltage and current for your cameras",
+            "Single and multi-output options"
+          ],
+          "availability": "Confirm on enquiry",
+          "price": null,
+          "image": null
+        }
+      ]
+    },
+    {
+      "id": "networking",
+      "name": "Networking",
+      "icon": "wifi",
+      "intro": "Routers, switches and accessories for dependable connections.",
+      "items": [
+        {
+          "id": "wifi-routers",
+          "name": "Wi-Fi routers",
+          "description": "Home and small-office routers for everyday connectivity.",
+          "features": [
+            "Easy setup",
+            "Suitable for typical home and office use"
+          ],
+          "availability": "Confirm on enquiry",
+          "price": null,
+          "image": null
+        },
+        {
+          "id": "lte-routers",
+          "name": "4G LTE routers",
+          "description": "Routers that use a SIM card to provide internet where fixed lines are unavailable.",
+          "features": [
+            "SIM-based internet",
+            "Useful as a primary or backup connection",
+            "Network coverage depends on your provider"
+          ],
+          "availability": "Confirm on enquiry",
+          "price": null,
+          "image": null
+        },
+        {
+          "id": "wifi6-routers",
+          "name": "Wi-Fi 6 routers",
+          "description": "Newer-generation routers for busier networks with many devices.",
+          "features": [
+            "Better performance with many devices",
+            "Needs Wi-Fi 6-capable devices for full benefit"
+          ],
+          "availability": "Confirm on enquiry",
+          "price": null,
+          "image": null
+        },
+        {
+          "id": "mesh",
+          "name": "Mesh systems",
+          "description": "Multiple units working together to cover larger homes and offices.",
+          "features": [
+            "Wider, more even coverage",
+            "One network name throughout",
+            "Expandable"
+          ],
+          "availability": "Confirm on enquiry",
+          "price": null,
+          "image": null
+        },
+        {
+          "id": "switches",
+          "name": "Network switches",
+          "description": "Add wired ports for computers, cameras, access points and other devices.",
+          "features": [
+            "Unmanaged and managed options",
+            "PoE models for cameras and access points"
+          ],
+          "availability": "Confirm on enquiry",
+          "price": null,
+          "image": null
+        },
+        {
+          "id": "ethernet",
+          "name": "Ethernet cables",
+          "description": "Patch cables and cable by the length for wired connections.",
+          "features": [
+            "Common categories available",
+            "Custom lengths on request"
+          ],
+          "availability": "Confirm on enquiry",
+          "price": null,
+          "image": null
+        },
+        {
+          "id": "net-accessories",
+          "name": "Network accessories",
+          "description": "Patch panels, wall plates, connectors, antennas and mounting hardware.",
+          "features": [
+            "Tidy, labelled installs",
+            "Replacement and upgrade parts"
+          ],
+          "availability": "Confirm on enquiry",
+          "price": null,
+          "image": null
+        }
+      ]
+    },
+    {
+      "id": "smart",
+      "name": "Smart Technology",
+      "icon": "chip",
+      "intro": "Devices that make spaces easier to control.",
+      "items": [
+        {
+          "id": "smart-switches",
+          "name": "Smart switches",
+          "description": "Control lights and fittings from your phone or on a schedule.",
+          "features": [
+            "App control",
+            "Schedules and timers"
+          ],
+          "availability": "Confirm on enquiry",
+          "price": null,
+          "image": null
+        },
+        {
+          "id": "smart-plugs",
+          "name": "Smart plugs",
+          "description": "Turn ordinary appliances on and off remotely.",
+          "features": [
+            "Simple to start with",
+            "Works with your existing appliances"
+          ],
+          "availability": "Confirm on enquiry",
+          "price": null,
+          "image": null
+        },
+        {
+          "id": "smart-locks",
+          "name": "Smart locks",
+          "description": "Keyless entry options for homes and offices.",
+          "features": [
+            "Multiple unlock methods on supported models",
+            "Professional fitting recommended"
+          ],
+          "availability": "Confirm on enquiry",
+          "price": null,
+          "image": null
+        },
+        {
+          "id": "sensors",
+          "name": "Sensors",
+          "description": "Door, motion, temperature and other sensors that trigger alerts or actions.",
+          "features": [
+            "Event-based automation",
+            "Battery or powered models"
+          ],
+          "availability": "Confirm on enquiry",
+          "price": null,
+          "image": null
+        },
+        {
+          "id": "controllers",
+          "name": "Automation controllers",
+          "description": "Hubs and controllers that bring devices together.",
+          "features": [
+            "Central control",
+            "Scenes and routines"
+          ],
+          "availability": "Confirm on enquiry",
+          "price": null,
+          "image": null
+        },
+        {
+          "id": "iot",
+          "name": "IoT devices",
+          "description": "Connected devices for homes, workspaces and businesses.",
+          "features": [
+            "Matched to your network",
+            "Set-up support available"
+          ],
+          "availability": "Confirm on enquiry",
+          "price": null,
+          "image": null
+        }
+      ]
+    },
+    {
+      "id": "gaming",
+      "name": "Gaming",
+      "icon": "gamepad",
+      "intro": "Gear and builds for every kind of player.",
+      "items": [
+        {
+          "id": "gaming-accessories",
+          "name": "Gaming accessories",
+          "description": "Essentials that complete a setup.",
+          "features": [
+            "Wide range",
+            "Matched to your platform"
+          ],
+          "availability": "Confirm on enquiry",
+          "price": null,
+          "image": null
+        },
+        {
+          "id": "controllers-gaming",
+          "name": "Controllers",
+          "description": "Gamepads for console and PC.",
+          "features": [
+            "Wired and wireless options",
+            "Platform compatibility confirmed before purchase"
+          ],
+          "availability": "Confirm on enquiry",
+          "price": null,
+          "image": null
+        },
+        {
+          "id": "headsets",
+          "name": "Headsets",
+          "description": "Gaming headsets for clear sound and chat.",
+          "features": [
+            "Wired and wireless options",
+            "Comfort for long sessions"
+          ],
+          "availability": "Confirm on enquiry",
+          "price": null,
+          "image": null
+        },
+        {
+          "id": "keyboards",
+          "name": "Keyboards",
+          "description": "Keyboards for gaming and everyday work.",
+          "features": [
+            "Mechanical and membrane options",
+            "RGB options"
+          ],
+          "availability": "Confirm on enquiry",
+          "price": null,
+          "image": null
+        },
+        {
+          "id": "mice",
+          "name": "Mice",
+          "description": "Gaming and office mice.",
+          "features": [
+            "Adjustable sensitivity on supported models",
+            "Wired and wireless options"
+          ],
+          "availability": "Confirm on enquiry",
+          "price": null,
+          "image": null
+        },
+        {
+          "id": "monitors",
+          "name": "Monitors",
+          "description": "Screens for gaming, work and CCTV viewing.",
+          "features": [
+            "Various sizes",
+            "Refresh-rate options for gaming"
+          ],
+          "availability": "Confirm on enquiry",
+          "price": null,
+          "image": null
+        },
+        {
+          "id": "gaming-pcs",
+          "name": "Gaming PCs",
+          "description": "Pre-built and custom-built gaming computers.",
+          "features": [
+            "Built around your budget and games",
+            "Upgradeable",
+            "Tested before handover"
+          ],
+          "availability": "Confirm on enquiry",
+          "price": null,
+          "image": null
+        },
+        {
+          "id": "rgb",
+          "name": "RGB accessories",
+          "description": "Lighting and accessories for a styled setup.",
+          "features": [
+            "Controlled lighting",
+            "Used sparingly, it looks sharp"
+          ],
+          "availability": "Confirm on enquiry",
+          "price": null,
+          "image": null
+        }
+      ]
+    },
+    {
+      "id": "general",
+      "name": "General Tech",
+      "icon": "box",
+      "intro": "Everyday computer accessories and upgrade parts.",
+      "items": [
+        {
+          "id": "computer-accessories",
+          "name": "Computer accessories",
+          "description": "Everyday add-ons for computers and laptops.",
+          "features": [
+            "Wide range",
+            "Compatibility checked on request"
+          ],
+          "availability": "Confirm on enquiry",
+          "price": null,
+          "image": null
+        },
+        {
+          "id": "repair-parts",
+          "name": "Repair and upgrade components",
+          "description": "Parts for repairs and upgrades, fitted by us on request.",
+          "features": [
+            "Memory, storage and more",
+            "Fitting and testing available"
+          ],
+          "availability": "Confirm on enquiry",
+          "price": null,
+          "image": null
+        },
+        {
+          "id": "net-accessories-general",
+          "name": "Networking accessories",
+          "description": "Everyday networking add-ons.",
+          "features": [
+            "Cables, adapters and more",
+            "Matched to your equipment"
+          ],
+          "availability": "Confirm on enquiry",
+          "price": null,
+          "image": null
+        }
+      ]
+    }
+  ]
+}

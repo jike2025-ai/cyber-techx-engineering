@@ -1,0 +1,20 @@
+{
+  "_help": "FAQs. Keep answers factual. Do not promise anything you have not confirmed.",
+  "faqs": [
+    { "q": "What services does Cyber_Techx provide?", "a": "We provide CCTV and security installation, networking and Wi-Fi, smart automation and IoT, gaming technology, technical support and repairs, and IT and AI training, along with the related products. See the Services page for details.", "preview": true },
+    { "q": "Do you provide on-site installation?", "a": "Yes, installation is part of what we do. Tell us your location and what you need, and we will confirm how and when it can be done.", "preview": true },
+    { "q": "Can I request a quote before purchasing?", "a": "Yes. Use the Request a Quote option or message us on WhatsApp. Larger projects get a written quotation so you know the scope and price before you agree.", "preview": true },
+    { "q": "Do you install CCTV for homes and businesses?", "a": "Yes. We plan and install CCTV for homes, offices, shops, schools, estates, warehouses and farms.", "preview": false },
+    { "q": "Can CCTV be viewed remotely?", "a": "Usually, yes. Many recorders and cameras support viewing on a phone. It depends on the equipment and on having a working internet connection at the site. We will tell you what is possible for your setup.", "preview": true },
+    { "q": "Do you install networking systems?", "a": "Yes: routers, Wi-Fi coverage improvement, mesh systems, switches, structured cabling and network troubleshooting for homes and businesses.", "preview": false },
+    { "q": "Do you provide smart automation?", "a": "Yes. We work with smart lighting, switches, plugs, locks, sensors and related devices, and we can integrate them over a reliable network.", "preview": false },
+    { "q": "Can I book a consultation?", "a": "Yes. Send a consultation request with your preferred method (in-store, on-site or virtual) and date. We review each request and contact you; a consultation is only confirmed once we have replied.", "preview": true },
+    { "q": "How do I choose the right CCTV camera?", "a": "It depends on where the camera goes, what you need to see, lighting and how you will view footage. Dome cameras suit ceilings and covered areas, bullet cameras suit walls and gates, PTZ cameras cover wide areas, and solar models suit places without power. A short consultation will point you to the right mix.", "preview": false },
+    { "q": "Do you provide maintenance?", "a": "Yes. We can maintain and upgrade systems we install and, in many cases, systems installed by others. Any maintenance or support fees are agreed with you in advance.", "preview": false },
+    { "q": "What areas do you serve?", "a": "We are based in Ifite-Awka, Anambra. Tell us where your site is and we will confirm whether and how we can serve it.", "preview": false },
+    { "q": "How do I order products?", "a": "Browse the catalogue, then use Ask for Price, Request a Quote or WhatsApp us for the items you want. We will confirm availability, price and collection or delivery arrangements.", "preview": false },
+    { "q": "Do you offer training?", "a": "Yes: digital literacy, networking fundamentals, cybersecurity awareness, Python, AI fundamentals, automation and more, for individuals and groups. Contact us for current schedules and fees.", "preview": false },
+    { "q": "What is your return policy?", "a": "Eligible physical products may be returned within 7 days where applicable, if they are unused, complete and in original condition with proof of purchase. Read the full Returns & Exchanges policy for the details and exceptions.", "preview": false },
+    { "q": "How does delivery work?", "a": "Delivery or pickup can be arranged after your order and payment are confirmed. Delivery costs and timing depend on your location and the order. See the Shipping & Delivery page.", "preview": false }
+  ]
+}

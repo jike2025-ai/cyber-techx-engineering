@@ -1,0 +1,163 @@
+{
+  "_help": "One entry per service. 'page' = dedicated landing page (slug). 'image' = file in assets/img (without size suffix/extension) or null to show an icon panel.",
+  "services": [
+    {
+      "id": "cctv",
+      "name": "CCTV & Security",
+      "page": "cctv-security",
+      "icon": "camera",
+      "image": "project-cctv-wall",
+      "imageAlt": "Wall-mounted monitor showing a multi-camera CCTV live view beside a wall cabinet",
+      "formService": "CCTV & Security",
+      "summary": "Professional CCTV planning, installation, configuration, maintenance, upgrades and monitoring solutions.",
+      "description": "We help you decide where cameras are needed, supply suitable equipment, install it neatly, set it up so you can view it from your phone, and look after it afterwards.",
+      "offerings": ["Dome cameras", "Bullet cameras", "PTZ cameras", "Solar PTZ cameras", "AI-enabled cameras", "Night-vision systems", "DVR/NVR systems", "Remote mobile viewing", "Motion alerts", "Surveillance system maintenance"],
+      "benefits": ["Coverage planned around your property, not guesswork", "Neat cabling and tidy equipment placement", "View live footage from your phone where the equipment and internet allow", "Maintenance and upgrades available after installation"],
+      "useCases": ["Homes and compounds", "Shops and offices", "Schools", "Estates", "Warehouses", "Farms"],
+      "cta": "Explore Security Solutions"
+    },
+    {
+      "id": "network",
+      "name": "Networking & Wi-Fi",
+      "page": "networking-wifi",
+      "icon": "wifi",
+      "image": "project-network-cabinet",
+      "imageAlt": "Wall-mounted network cabinet containing a switch, wireless equipment and an access point",
+      "formService": "Networking & Wi-Fi",
+      "summary": "Router setup, Wi-Fi coverage, structured cabling and network troubleshooting for homes and businesses.",
+      "description": "We install and configure routers and network equipment, improve Wi-Fi coverage, tidy and structure cabling, and fix connectivity problems.",
+      "offerings": ["Router installation", "Router configuration", "Wi-Fi optimization", "Wi-Fi coverage improvement", "Wi-Fi 6", "Mesh Wi-Fi", "LAN configuration", "WAN configuration", "Structured cabling", "Network troubleshooting", "Business networks", "Home networks", "Network equipment installation", "Fiber-ready networking"],
+      "benefits": ["Better coverage in the rooms that matter", "Equipment configured properly, not left on defaults", "A network that can grow with you", "Help when something stops working"],
+      "useCases": ["Homes and apartments", "Offices", "Shops and small businesses", "Smart and connected spaces"],
+      "cta": "Improve My Wi-Fi"
+    },
+    {
+      "id": "smart",
+      "name": "Smart Automation & IoT",
+      "page": "smart-automation-iot",
+      "icon": "chip",
+      "image": null,
+      "imageAlt": "",
+      "formService": "Smart Automation",
+      "summary": "Smart lighting, switches, plugs, locks and sensors that make homes and workplaces safer, smarter and more connected.",
+      "description": "Cyber_Techx delivers smart automation, network solutions, and IoT systems for modern living and working environments. We help homes and businesses become safer, smarter, and more connected.",
+      "offerings": ["Smart lighting", "Smart switches", "Smart plugs", "Smart locks", "Connected security", "Mobile-controlled devices", "Smart sensors", "Automation", "IoT integration", "Smart workspace solutions"],
+      "benefits": ["Control devices from your phone", "Devices that work together on a solid network", "Start small and add more later", "Set up and explained in plain language"],
+      "useCases": ["Smart homes", "Offices and workspaces", "Shops", "Rental and short-stay properties"],
+      "cta": "Make My Home Smarter"
+    },
+    {
+      "id": "gaming",
+      "name": "Gaming & Gadgets",
+      "page": "gaming-gadgets",
+      "icon": "gamepad",
+      "image": null,
+      "imageAlt": "",
+      "formService": "Gaming",
+      "summary": "Gaming PCs, accessories, monitors, RGB setups and complete gaming environments.",
+      "description": "From a single controller to a full gaming room or lounge, we help you choose, build and set up gaming technology that fits your space and budget.",
+      "offerings": ["Gaming PCs", "Gaming accessories", "Controllers", "Keyboards", "Mice", "Headsets", "Monitors", "RGB setups", "Custom gaming environments", "Gaming lounge solutions"],
+      "benefits": ["Advice matched to how you actually play", "Custom PC builds and upgrades", "Tidy, well-planned setups", "Support if something misbehaves"],
+      "useCases": ["Home gamers", "Students", "Content creators", "Gaming lounges"],
+      "cta": "Explore Gaming Products"
+    },
+    {
+      "id": "training",
+      "name": "IT & AI Training",
+      "page": "it-ai-training",
+      "icon": "book",
+      "image": null,
+      "imageAlt": "",
+      "formService": "IT & AI Training",
+      "summary": "Practical IT, cybersecurity awareness, Python and AI skills for individuals, groups and organisations.",
+      "description": "Hands-on learning that moves you from using technology to understanding it, for beginners, students, professionals and teams.",
+      "offerings": ["Digital literacy", "Networking fundamentals", "Cybersecurity awareness", "Python", "AI fundamentals", "Automation", "Robotics introduction", "Practical IT learning", "Workshops", "Individual and group training"],
+      "benefits": ["Practical, example-led lessons", "Individual or group formats", "Workshops for teams and organisations", "No jargon without an explanation"],
+      "useCases": ["Students", "Job seekers and professionals", "Small businesses", "Schools and organisations"],
+      "cta": "Ask About Training"
+    },
+    {
+      "id": "support",
+      "name": "Tech Support & Engineering",
+      "page": null,
+      "icon": "wrench",
+      "image": null,
+      "imageAlt": "",
+      "formService": "Technical Support",
+      "summary": "PC diagnostics, repairs, upgrades, software installation and troubleshooting.",
+      "description": "When a computer or network is not behaving, we diagnose the cause, explain it clearly and fix it, or recommend an upgrade or replacement if that makes more sense.",
+      "offerings": ["PC diagnostics", "Repairs", "Software installation", "Hardware upgrades", "Custom PC builds", "System troubleshooting", "Network diagnostics"],
+      "benefits": ["Clear explanation of what is wrong", "Repair-or-replace advice", "Upgrades to extend a machine's life"],
+      "useCases": ["Home computers", "Office machines", "Small business networks"],
+      "cta": "Get Started"
+    },
+    {
+      "id": "cafe",
+      "name": "Internet Café & Digital Access",
+      "page": null,
+      "icon": "monitor",
+      "image": null,
+      "imageAlt": "",
+      "formService": "Other",
+      "summary": "Internet access, workstations and technical assistance. Facilities and hours are confirmed on enquiry.",
+      "description": "Access to a productive, connected workspace with technical assistance on hand. Please contact us to confirm current facilities and availability before visiting.",
+      "offerings": ["Internet access", "Workstations", "Browsing", "Productivity environment", "Printing/scanning (if available)", "Technical assistance"],
+      "benefits": ["A place to get online and get work done", "Technical help available"],
+      "useCases": ["Students", "Freelancers", "Anyone needing a connected workstation"],
+      "cta": "Ask an Expert"
+    }
+  ],
+  "cctvStages": [
+    { "title": "Camera selection", "text": "We help you choose camera types for each location: dome, bullet, PTZ, solar or AI-enabled, based on what you need to see and where." },
+    { "title": "Site assessment", "text": "We look at your property, entry points, lighting, cable routes, power and internet to plan coverage before anything is installed." },
+    { "title": "Installation", "text": "Cameras, recorder, cabling and power are installed and tidied so the system looks neat and works reliably." },
+    { "title": "Configuration", "text": "Recording, motion alerts and user access are set up properly, with sensible passwords that you control." },
+    { "title": "Mobile monitoring", "text": "Where the equipment and your internet connection support it, we set up viewing on your phone so you can check in remotely." },
+    { "title": "Maintenance", "text": "Cameras get dirty, cables age and drives fill up. Maintenance keeps your system recording when you need it." },
+    { "title": "Upgrades", "text": "Add cameras, replace old equipment, increase storage or move to newer technology as your needs change." }
+  ],
+  "networkHighlights": [
+    { "title": "Fast connectivity", "text": "Equipment chosen and configured to make the most of the connection you pay for." },
+    { "title": "Coverage", "text": "Wi-Fi that reaches the rooms and floors where you actually work and relax." },
+    { "title": "Reliability", "text": "Stable setups with properly terminated cables and sensible configuration." },
+    { "title": "Professional installation", "text": "Neat mounting, labelled cabling and equipment placed where it performs best." },
+    { "title": "Troubleshooting", "text": "Systematic diagnosis of slow, dropping or dead connections." },
+    { "title": "Scalable solutions", "text": "Start with what you need and add access points, switches or users later." }
+  ],
+  "smartFocus": [
+    { "title": "Convenience", "text": "Lights, plugs and devices that respond to your phone or a schedule." },
+    { "title": "Security", "text": "Smart locks, sensors and connected cameras working together." },
+    { "title": "Connectivity", "text": "A solid network underneath, so devices stay online." },
+    { "title": "Control", "text": "One place to see and manage the devices around you." },
+    { "title": "Efficiency", "text": "Switch things off remotely and automate routine tasks." }
+  ],
+  "process": [
+    { "title": "Tell Us What You Need", "text": "Share your goals by form, call or WhatsApp." },
+    { "title": "Consultation / Assessment", "text": "In-store, on-site or virtual, we understand your space and requirements." },
+    { "title": "Recommendation & Quote", "text": "You receive suitable options and a clear written quote." },
+    { "title": "Customer Approval", "text": "Nothing proceeds until you agree to the scope and price." },
+    { "title": "Installation / Delivery", "text": "Equipment is supplied and installed, or delivered, as agreed." },
+    { "title": "Testing", "text": "We test the work with you before calling it done." },
+    { "title": "Handover", "text": "We show you how everything works in plain language." },
+    { "title": "Support", "text": "Help is available afterwards, under the terms agreed in your quote." }
+  ],
+  "problems": [
+    "Poor surveillance coverage",
+    "Unreliable connectivity",
+    "Outdated equipment",
+    "Poor Wi-Fi coverage",
+    "Disconnected smart devices",
+    "Uncertainty when choosing technology",
+    "Lack of technical support",
+    "Difficulty implementing automation",
+    "Limited access to practical technology training"
+  ],
+  "values": [
+    { "title": "Reliability", "text": "We aim to be technology and support you can depend on." },
+    { "title": "Innovation", "text": "We look for modern solutions that suit today's connected environments." },
+    { "title": "Security", "text": "Security and responsible technology are part of how we work." },
+    { "title": "Integrity", "text": "Clear advice, honest quotes and no hidden charges." },
+    { "title": "Customer Focus", "text": "We start with your needs, not with what we want to sell." },
+    { "title": "Continuous Learning", "text": "Technology moves quickly, so we keep learning and teaching." }
+  ]
+}

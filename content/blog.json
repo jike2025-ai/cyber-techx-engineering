@@ -1,0 +1,38 @@
+{
+ "categories": ["CCTV & Security","Networking","Wi-Fi Tips","Smart Homes","IoT","Gaming","AI","Digital Skills","Product Guides","Maintenance Tips"],
+ "_readme": "Add or edit articles here. body items: plain string = paragraph, {list:[...]} = bullet list, {h:'Heading'} = subheading.",
+ "posts": [
+  {"slug":"how-to-choose-a-cctv-system","title":"How to Choose a CCTV System","category":"CCTV & Security","excerpt":"Five questions to answer before you buy any cameras.","body":[
+   "A good CCTV system starts with your site, not with a shopping list. Before you buy, work through these questions.",
+   {"h":"1. What are you protecting?"},"List the areas that matter most: gates, doors, car parking, cash points, stores. Those are your priority views.",
+   {"h":"2. Indoors or outdoors?"},"Outdoor cameras need weatherproof housings and a plan for cabling and power. Indoor cameras can be more compact.",
+   {"h":"3. What will you see at night?"},"Check lighting. Many cameras have night vision, but their range and picture quality differ.",
+   {"h":"4. How long should footage be kept?"},"This decides recorder and hard-drive size. More cameras and longer retention need more storage.",
+   {"h":"5. Do you want to watch on your phone?"},"If yes, the recorder needs a reliable internet connection and correct setup.",
+   "The simplest way to answer all of this is a short site assessment. Talk to us and we will recommend a system that fits."]},
+  {"slug":"signs-your-wifi-needs-an-upgrade","title":"Signs Your Wi-Fi Network Needs an Upgrade","category":"Wi-Fi Tips","excerpt":"Slow, patchy or unreliable Wi-Fi often has a fixable cause.","body":[
+   "Not every Wi-Fi problem means you need a faster internet plan. Look for these signs.",
+   {"list":["Some rooms have weak or no signal","Calls and video keep dropping","The connection slows down when several people are online","Your router is several years old","Devices keep disconnecting and reconnecting","You have added cameras or smart devices and things got worse"]},
+   "Often the fix is better router placement, a configuration change, a wired link or a mesh system rather than a bigger plan. A short network check can tell you which."]},
+  {"slug":"what-is-a-mesh-wifi-network","title":"What Is a Mesh Wi-Fi Network?","category":"Networking","excerpt":"A plain-language explanation of mesh Wi-Fi and when it helps.","body":[
+   "A mesh Wi-Fi system uses several small units that work together as one network. You place them around your home or office, and your devices connect to whichever unit is closest.",
+   {"h":"When mesh helps"},{"list":["Larger homes or several floors","Thick walls that block signal","Spaces where one router leaves dead spots"]},
+   {"h":"Things to remember"},"Placement matters. Units need to be close enough to each other to share a strong connection, and a wired link between units usually gives the best result."]},
+  {"slug":"smart-home-basics","title":"Smart Home Basics","category":"Smart Homes","excerpt":"Where to start if you want a smarter home without the confusion.","body":[
+   "A smart home is simply a home where devices can be controlled or automated from a phone or a schedule.",
+   {"h":"Start small"},"Smart plugs and smart lighting are an easy first step. You can turn devices on and off remotely or on a timer.",
+   {"h":"Get the network right"},"Every smart device relies on your Wi-Fi. A stable network matters more than any single gadget.",
+   {"h":"Think about compatibility"},"Devices work best when they use the same app or platform. Plan before you buy several different brands.",
+   "If you are unsure where to begin, we can talk through your space and suggest a sensible first step."]},
+  {"slug":"how-to-plan-a-cctv-installation","title":"How to Plan a CCTV Installation","category":"CCTV & Security","excerpt":"A simple planning checklist to get more from your cameras.","body":[
+   {"list":["Walk the site and note entrances, blind spots and valuable areas","Decide where the recorder will live, somewhere secure with power and ventilation","Plan cable routes and power for each camera","Check how cameras will be mounted and protected from weather","Decide whether you want remote viewing and make sure internet is available","Think about privacy: only record where it is lawful, and tell people where required"]},
+   "Planning first saves money, because you place fewer cameras more effectively."]},
+  {"slug":"beginners-guide-to-ai-skills","title":"Beginner's Guide to AI Skills","category":"AI","excerpt":"What to learn first if you want to use AI well.","body":[
+   "You do not need to be a programmer to benefit from AI. A few foundations go a long way.",
+   {"list":["Learn what AI tools can and cannot do","Practise writing clear instructions and checking the results","Understand basic privacy: do not paste sensitive information into tools you do not control","Build digital basics: files, email, search and security habits","If you want to go further, start with Python and simple automation"]},
+   "The key habit is to treat AI as a helper whose work you check."]},
+  {"slug":"technology-maintenance-checklist","title":"Technology Maintenance Checklist","category":"Maintenance Tips","excerpt":"Small regular habits that keep your devices and networks healthy.","body":[
+   {"list":["Restart your router now and then and keep its firmware updated","Keep operating systems and apps updated","Back up important files to a second place","Clean camera lenses and check that every camera is still recording","Check cables and power adapters for wear or damage","Change default passwords on routers, cameras and smart devices","Keep dust away from PCs and make sure fans work"]},
+   "If something looks wrong or you are unsure, ask for help early. Small faults are cheaper to fix."]}
+ ]
+}

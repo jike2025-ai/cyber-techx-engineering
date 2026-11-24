@@ -1,0 +1,263 @@
+{
+  "_help": "All policy text. Edit freely. Each section: h (heading), p (paragraphs), ul (bullets). These are starting templates, not legal advice: have them reviewed before relying on them.",
+  "returns": {
+    "title": "Returns & Exchanges",
+    "slug": "returns-exchanges",
+    "description": "How returns and exchanges work at Cyber_Techx Engineering, including eligibility, exceptions and how to start a request.",
+    "updated": "November 2026",
+    "intro": "We want you to be happy with what you buy. This page explains when a product can be returned or exchanged and how services are handled.",
+    "sections": [
+      {
+        "h": "Physical products",
+        "p": [
+          "Physical products may be eligible for return within 7 days where applicable, if all of the following are true:"
+        ],
+        "ul": [
+          "The product is unused",
+          "It is in its original condition",
+          "It is complete, with all packaging and accessories intact",
+          "Proof of purchase is available"
+        ]
+      },
+      {
+        "h": "Items that may not be returnable",
+        "ul": [
+          "Customised or special-order products",
+          "Activated digital products or software",
+          "Products damaged through misuse, negligence, unauthorised modification or improper installation"
+        ]
+      },
+      {
+        "h": "Defective or incorrectly supplied products",
+        "p": [
+          "If a product is faulty or is not what you ordered, contact us as soon as possible. Cyber_Techx will review it and tell you whether it can be repaired, replaced or refunded, based on the circumstances and any agreed warranty terms."
+        ]
+      },
+      {
+        "h": "Completed services",
+        "p": [
+          "Services that have already been carried out cannot normally be 'returned'. If you believe an installation or service has a problem, tell us. Verified issues will be assessed and corrected according to the agreed scope and any warranty terms in your quotation."
+        ]
+      },
+      {
+        "h": "How to start a return",
+        "p": [
+          "Contact us by WhatsApp, phone or email with your name, what you bought, when you bought it and proof of purchase. Please do not send items back until we have agreed the next step with you."
+        ]
+      },
+      {
+        "h": "Your legal rights",
+        "p": [
+          "Consumer rights provided by applicable law are not excluded."
+        ]
+      }
+    ]
+  },
+  "shipping": {
+    "title": "Shipping & Delivery",
+    "slug": "shipping-delivery",
+    "description": "How delivery, pickup and installation access work for orders from Cyber_Techx Engineering.",
+    "updated": "November 2026",
+    "intro": "This page explains how we get products to you. We do not publish fixed delivery times because they depend on your location and the order. We will confirm arrangements with you directly.",
+    "sections": [
+      {
+        "h": "When delivery starts",
+        "p": [
+          "Delivery is arranged after your order and, where applicable, payment have been confirmed."
+        ]
+      },
+      {
+        "h": "Pickup and delivery",
+        "p": [
+          "Pickup or delivery options can be arranged. Tell us which you prefer when you place your order, and we will confirm what is possible."
+        ]
+      },
+      {
+        "h": "Shipping costs",
+        "p": [
+          "Shipping costs may depend on your location and the size and type of order. Any delivery charge is told to you before you agree to the order. We do not add delivery charges after the fact."
+        ]
+      },
+      {
+        "h": "Your information",
+        "p": [
+          "Please give accurate contact and delivery details, including a phone number and a nearby landmark. Delays or failed deliveries caused by incorrect details may need to be rearranged."
+        ]
+      },
+      {
+        "h": "Installation and site access",
+        "p": [
+          "Where installation is part of your order, we need safe access to the site and, where relevant, power and internet. Access problems can delay installation."
+        ]
+      },
+      {
+        "h": "Delays",
+        "p": [
+          "Courier and other external delays can occur. If something affects your order, we will keep you informed."
+        ]
+      },
+      {
+        "h": "Questions",
+        "p": [
+          "Message us on WhatsApp or by email and we will explain the options for your order."
+        ]
+      }
+    ]
+  },
+  "fees": {
+    "title": "Fees & Agreements",
+    "slug": "fees-agreements",
+    "description": "How Cyber_Techx Engineering separates product costs, installation, consultation, training, delivery and support fees, and how written quotations work.",
+    "updated": "November 2026",
+    "intro": "We keep our charges clear and separate so you always know what you are paying for. There are no hidden fees. Any surcharge, deposit, cancellation fee, late fee or other charge must be stated and agreed with you before it is applied.",
+    "sections": [
+      {
+        "h": "Written quotations for larger projects",
+        "p": [
+          "For larger projects we provide a written quotation or agreement. It sets out:"
+        ],
+        "ul": [
+          "Scope of work",
+          "Equipment and products",
+          "Labour",
+          "Price",
+          "Payment schedule",
+          "Timeline",
+          "Warranty",
+          "Support",
+          "Customer responsibilities",
+          "Change requests",
+          "Cancellation conditions"
+        ]
+      },
+      {
+        "h": "Changes and cancellations",
+        "p": [
+          "If you ask for changes after approving a quote, we will tell you the effect on price and timeline before doing the extra work. Cancellation conditions, including any deposit treatment, are set out in the quotation and agreed before work begins."
+        ]
+      },
+      {
+        "h": "Discounts and promotions",
+        "p": [
+          "We may offer promotional, bulk-order, loyalty or training discounts, or campaign codes. Discounts are shown clearly on your quote. Discounts do not stack unless the offer explicitly says they can."
+        ]
+      }
+    ]
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "slug": "privacy-policy",
+    "description": "What personal information Cyber_Techx Engineering collects through this website, how it is used and the choices you have.",
+    "updated": "November 2026",
+    "intro": "This policy explains how Cyber_Techx Engineering handles personal information collected through this website. We aim to handle personal data in line with applicable Nigerian law, including the Nigeria Data Protection Act.",
+    "sections": [
+      {
+        "h": "What we collect",
+        "p": [
+          "When you send a consultation request, quote request, contact message or use the enquiry assistant, we collect what you choose to give us, such as your name, phone number, email, location and project details."
+        ]
+      },
+      {
+        "h": "What we ask you not to share",
+        "p": [
+          "Please never send passwords, PINs, one-time codes (OTPs), card numbers, bank login details or other sensitive information through this website. We will never ask for them."
+        ]
+      },
+      {
+        "h": "How we use it",
+        "ul": [
+          "To respond to your enquiry and provide quotes, consultations and services",
+          "To arrange visits, delivery or installation",
+          "To keep records of our communication with you"
+        ]
+      },
+      {
+        "h": "Who receives it",
+        "p": [
+          "Your enquiry is delivered to Cyber_Techx Engineering by email through an email delivery service that processes it on our behalf. If you contact us on WhatsApp, your message is handled through WhatsApp under its own terms."
+        ]
+      },
+      {
+        "h": "Cookies and analytics",
+        "p": [
+          "This website does not currently use advertising cookies or analytics trackers. If that changes, this policy will be updated."
+        ]
+      },
+      {
+        "h": "Keeping and deleting your data",
+        "p": [
+          "We keep enquiry details for as long as needed to deal with your request and any related service, and as required by law. You can ask us to correct or delete your information by contacting us."
+        ]
+      },
+      {
+        "h": "Your rights",
+        "p": [
+          "Under applicable law you may have rights to access, correct or delete your personal data and to object to certain uses. Contact us to exercise them."
+        ]
+      },
+      {
+        "h": "Contact",
+        "p": [
+          "Questions about this policy can be sent to the email address or WhatsApp number shown on the Contact page."
+        ]
+      }
+    ]
+  },
+  "terms": {
+    "title": "Terms & Conditions",
+    "slug": "terms-conditions",
+    "description": "The terms that apply when you use the Cyber_Techx Engineering website and request our products and services.",
+    "updated": "November 2026",
+    "intro": "By using this website you agree to these terms. They are a general framework; the specific terms for a product or project are confirmed in your quotation or order.",
+    "sections": [
+      {
+        "h": "About this website",
+        "p": [
+          "This website is operated by Cyber_Techx Engineering, Ifite-Awka, Anambra, Nigeria. Information is provided in good faith and may change. Product availability, specifications and prices are confirmed at the time of your order or quote."
+        ]
+      },
+      {
+        "h": "Enquiries are not orders",
+        "p": [
+          "Sending a form, using the assistant or messaging us does not create an order, booking or appointment. A consultation, quote or order is only confirmed when Cyber_Techx replies to confirm it."
+        ]
+      },
+      {
+        "h": "Quotes, prices and payment",
+        "p": [
+          "Prices are not published on this website unless stated. Quotes are provided on request and set out what they include, how and when payment is due and how long the quote is valid. See Fees & Agreements."
+        ]
+      },
+      {
+        "h": "Installation and customer responsibilities",
+        "p": [
+          "You agree to provide accurate information, safe access and, where needed, power and internet. You are responsible for lawfully using any equipment we supply, including complying with privacy, surveillance and recording laws and obtaining any consent required."
+        ]
+      },
+      {
+        "h": "Returns, shipping and warranty",
+        "p": [
+          "Returns & Exchanges and Shipping & Delivery apply to product orders. Any warranty is set out in your quotation or order."
+        ]
+      },
+      {
+        "h": "Limits of liability",
+        "p": [
+          "To the extent the law permits, Cyber_Techx is not liable for indirect or consequential losses arising from use of this website. Nothing in these terms limits liability that cannot lawfully be limited or affects your statutory consumer rights."
+        ]
+      },
+      {
+        "h": "Changes to these terms",
+        "p": [
+          "We may update these terms from time to time. The date at the top shows when they were last changed."
+        ]
+      },
+      {
+        "h": "Governing law",
+        "p": [
+          "These terms are governed by the laws of the Federal Republic of Nigeria."
+        ]
+      }
+    ]
+  }
+}

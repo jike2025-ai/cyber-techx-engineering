@@ -1,0 +1,20 @@
+{
+  "_help": "Testimonials, blog posts and promotions. Only add REAL testimonials with the customer's permission. Blog posts with status 'coming-soon' show as cards without a link.",
+  "testimonials": [],
+  "_testimonialExample": { "quote": "Their words, exactly as given.", "name": "Customer name", "role": "Optional role or business", "service": "Optional service", "permission": true },
+  "blogCategories": ["CCTV & Security", "Networking", "Wi-Fi Tips", "Smart Homes", "IoT", "Gaming", "AI", "Digital Skills", "Product Guides", "Maintenance Tips"],
+  "posts": [
+    { "slug": "how-to-choose-a-cctv-system", "title": "How to Choose a CCTV System", "category": "CCTV & Security", "excerpt": "What to think about before buying cameras: coverage, lighting, storage and viewing.", "status": "coming-soon" },
+    { "slug": "signs-your-wifi-needs-an-upgrade", "title": "Signs Your Wi-Fi Network Needs an Upgrade", "category": "Wi-Fi Tips", "excerpt": "Dead spots, dropouts and slowdowns: when a better setup is worth it.", "status": "coming-soon" },
+    { "slug": "what-is-mesh-wifi", "title": "What Is a Mesh Wi-Fi Network?", "category": "Networking", "excerpt": "A plain-language guide to mesh systems and when you need one.", "status": "coming-soon" },
+    { "slug": "smart-home-basics", "title": "Smart Home Basics", "category": "Smart Homes", "excerpt": "Where to begin with smart lighting, plugs and sensors.", "status": "coming-soon" },
+    { "slug": "how-to-plan-a-cctv-installation", "title": "How to Plan a CCTV Installation", "category": "CCTV & Security", "excerpt": "Walk your property like an installer: entry points, power and cable routes.", "status": "coming-soon" },
+    { "slug": "beginners-guide-to-ai-skills", "title": "Beginner's Guide to AI Skills", "category": "AI", "excerpt": "The practical skills worth learning first, and how to start.", "status": "coming-soon" },
+    { "slug": "technology-maintenance-checklist", "title": "Technology Maintenance Checklist", "category": "Maintenance Tips", "excerpt": "Simple regular checks that keep devices, networks and cameras healthy.", "status": "coming-soon" }
+  ],
+  "promotions": {
+    "allowStacking": false,
+    "items": [],
+    "_example": { "code": "EXAMPLE10", "label": "Example offer", "type": "percent", "value": 10, "minSubtotal": 0, "active": false, "expires": "2026-12-31", "appliesTo": "Products only" }
+  }
+}

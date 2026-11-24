@@ -1,0 +1,110 @@
+{
+  "_help": "CENTRAL CONFIG. Edit contact details, social links, assistant text and form options here; every page, the footer, the assistant and the API read from this file. After editing run `npm run build` (Vercel does this automatically on every push).",
+  "name": "Cyber_Techx Engineering",
+  "shortName": "Cyber_Techx",
+  "tagline": "Reliable | Innovative | Secure",
+  "handle": "@Cyber_Techx",
+  "description": "Cyber_Techx Engineering provides CCTV and security installation, networking and Wi-Fi, smart automation, gaming technology, technical support and IT/AI training for homes and businesses in Awka, Anambra, Nigeria.",
+  "contact": {
+    "phoneDisplay": "0813 530 3131",
+    "phoneTel": "+2348135303131",
+    "whatsappNumber": "2348135303131",
+    "email": "cybertechxengineering@gmail.com",
+    "addressLine": "Ifite-Awka, Anambra, Nigeria",
+    "locality": "Ifite, Awka",
+    "region": "Anambra",
+    "countryCode": "NG",
+    "openingHours": "",
+    "openingHoursNote": "Opening hours have not been published yet. Please message us to confirm availability."
+  },
+  "whatsappDefaultMessage": "Hello Cyber_Techx Engineering, I would like to make an enquiry.",
+  "social": [
+    { "id": "tiktok", "label": "TikTok", "url": "https://www.tiktok.com/@cybertechxengineering" },
+    { "id": "instagram", "label": "Instagram", "url": "https://www.instagram.com/cyber_techx_" },
+    { "id": "facebook", "label": "Facebook", "url": "" },
+    { "id": "x", "label": "X (Twitter)", "url": "https://x.com/CyberTechx001" }
+  ],
+  "seo": {
+    "defaultImage": "/assets/img/og-default.png",
+    "defaultImageAlt": "Cyber_Techx Engineering logo on a dark background",
+    "twitterHandle": ""
+  },
+  "forms": {
+    "endpoint": "/api/contact",
+    "minFillSeconds": 3,
+    "consentText": "I agree that Cyber_Techx Engineering may use these details to respond to my request, as described in the Privacy Policy.",
+    "successMessage": "Thank you. Your consultation request has been received. Cyber_Techx Engineering will review your request and contact you using the details provided.",
+    "contactSuccessMessage": "Thank you. Your message has been received. Cyber_Techx Engineering will review it and reply using the details provided.",
+    "errorMessage": "We could not send your request right now. Nothing has been lost on this page. Please try again, or send it to us on WhatsApp or email instead.",
+    "serviceOptions": ["CCTV & Security", "Networking & Wi-Fi", "Smart Automation", "Gaming", "IT & AI Training", "Technical Support", "Product Purchase", "Other"],
+    "propertyTypes": ["Home", "Apartment / estate", "Office", "Shop / retail", "School", "Warehouse", "Farm", "Other"],
+    "methods": ["In-store", "On-site", "Virtual"],
+    "timelines": ["As soon as possible", "Within 2 weeks", "Within a month", "Just planning / flexible"],
+    "times": ["Morning", "Afternoon", "Evening", "Flexible"],
+    "contactMethods": ["WhatsApp", "Phone call", "Email"]
+  },
+  "assistant": {
+    "enabled": true,
+    "mode": "guided",
+    "aiEndpoint": "",
+    "title": "Enquiry assistant",
+    "launcherLabel": "Chat with us",
+    "welcome": "Hello and welcome to Cyber_Techx Engineering. How can we help upgrade your technology today?",
+    "notice": "This is a guided enquiry helper, not a live AI. Your answers go to the Cyber_Techx team, who reply personally. Please never share passwords, PINs, OTPs, card or bank details here.",
+    "options": [
+      { "id": "cctv", "label": "CCTV & Security", "kind": "service", "service": "CCTV & Security" },
+      { "id": "network", "label": "Networking & Wi-Fi", "kind": "service", "service": "Networking & Wi-Fi" },
+      { "id": "smart", "label": "Smart Automation & IoT", "kind": "service", "service": "Smart Automation" },
+      { "id": "gaming", "label": "Gaming & Gadgets", "kind": "service", "service": "Gaming" },
+      { "id": "training", "label": "IT & AI Training", "kind": "service", "service": "IT & AI Training" },
+      { "id": "support", "label": "Tech Support & Repairs", "kind": "service", "service": "Technical Support" },
+      { "id": "cafe", "label": "Internet Café Services", "kind": "service", "service": "Other", "note": "Internet café services: tell us what you need and we will confirm what is available." },
+      { "id": "buy", "label": "Buy a Product", "kind": "service", "service": "Product Purchase" },
+      { "id": "quote", "label": "Request a Quote", "kind": "service", "service": "Other", "request": "quote" },
+      { "id": "consult", "label": "Book a Consultation", "kind": "service", "service": "Other", "request": "consultation" },
+      { "id": "contact", "label": "Contact Cyber_Techx", "kind": "contact" }
+    ]
+  },
+  "flags": {
+    "showPolicyDraftNotice": true,
+    "showProjectPlaceholders": true
+  },
+  "nav": {
+    "solutions": [
+      { "label": "CCTV & Security", "href": "/cctv-security/" },
+      { "label": "Networking & Wi-Fi", "href": "/networking-wifi/" },
+      { "label": "Smart Automation & IoT", "href": "/smart-automation-iot/" },
+      { "label": "Gaming & Gadgets", "href": "/gaming-gadgets/" },
+      { "label": "IT & AI Training", "href": "/it-ai-training/" },
+      { "label": "All services", "href": "/services/" }
+    ],
+    "primary": [
+      { "label": "Products", "href": "/products/" },
+      { "label": "Projects", "href": "/projects/" },
+      { "label": "About", "href": "/about/" },
+      { "label": "Resources", "href": "/blog/" },
+      { "label": "Contact", "href": "/contact/" }
+    ],
+    "cta": { "label": "Book a Consultation", "href": "/consultation/" }
+  },
+  "footer": {
+    "navigation": [
+      { "label": "Services", "href": "/services/" },
+      { "label": "Products", "href": "/products/" },
+      { "label": "About", "href": "/about/" },
+      { "label": "Training", "href": "/it-ai-training/" },
+      { "label": "Projects", "href": "/projects/" },
+      { "label": "Testimonials", "href": "/testimonials/" },
+      { "label": "Blog", "href": "/blog/" },
+      { "label": "FAQ", "href": "/faq/" },
+      { "label": "Contact", "href": "/contact/" }
+    ],
+    "legal": [
+      { "label": "Privacy", "href": "/privacy-policy/" },
+      { "label": "Terms", "href": "/terms-conditions/" },
+      { "label": "Returns", "href": "/returns-exchanges/" },
+      { "label": "Shipping", "href": "/shipping-delivery/" },
+      { "label": "Fees & Agreements", "href": "/fees-agreements/" }
+    ]
+  }
+}

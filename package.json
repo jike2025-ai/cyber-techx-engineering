@@ -1,0 +1,13 @@
+{
+  "name": "cyber-techx-engineering-site",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Cyber_Techx Engineering website: zero-dependency static generator + Vercel serverless enquiry function.",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "node scripts/build.mjs && node scripts/serve.mjs",
+    "test": "node scripts/build.mjs && node scripts/check.mjs"
+  }
+}

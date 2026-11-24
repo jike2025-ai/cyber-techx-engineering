@@ -1,0 +1,78 @@
+{
+ "logo": {
+  "w": 853,
+  "h": 557
+ },
+ "field-cabinet": {
+  "w": 750,
+  "h": 1000,
+  "sizes": [
+   480,
+   750
+  ]
+ },
+ "field-antenna": {
+  "w": 750,
+  "h": 1000,
+  "sizes": [
+   480,
+   750
+  ]
+ },
+ "field-router": {
+  "w": 750,
+  "h": 1000,
+  "sizes": [
+   480,
+   750
+  ]
+ },
+ "field-monitorwall": {
+  "w": 1000,
+  "h": 750,
+  "sizes": [
+   480,
+   960
+  ]
+ },
+ "stock-cctv-install": {
+  "w": 853,
+  "h": 1280,
+  "sizes": [
+   480,
+   853
+  ]
+ },
+ "stock-smart-home": {
+  "w": 626,
+  "h": 626,
+  "sizes": [
+   480,
+   626
+  ]
+ },
+ "stock-drill-camera": {
+  "w": 540,
+  "h": 514,
+  "sizes": [
+   480,
+   540
+  ]
+ },
+ "product-solar-ptz": {
+  "w": 540,
+  "h": 915,
+  "sizes": [
+   480,
+   540
+  ]
+ },
+ "gaming-lounge": {
+  "w": 860,
+  "h": 890,
+  "sizes": [
+   480,
+   860
+  ]
+ }
+}

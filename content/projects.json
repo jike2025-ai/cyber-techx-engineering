@@ -1,0 +1,42 @@
+{
+  "_help": "Portfolio. Each project: title, category, images (base names in assets/img with -480/-960 or -640/-1200 webp), summary, and OPTIONAL challenge/solution/outcome/location (leave null until real, authorised details exist). Set placeholder:true for 'coming soon' cards. Do not publish a location or client details without the client's permission.",
+  "categories": ["CCTV installations", "Network installations", "Router deployments", "Smart automation", "Gaming setups", "Repair work", "Training sessions"],
+  "projects": [
+    {
+      "id": "cctv-monitoring-wall",
+      "title": "CCTV monitoring wall",
+      "category": "CCTV installations",
+      "images": [{ "base": "project-cctv-wall", "sizes": [640, 1200], "w": 1000, "h": 750, "alt": "Wall-mounted monitor showing a multi-camera CCTV live view beside a wall-mounted cabinet" }],
+      "summary": "A wall-mounted monitor displaying a multi-camera live view next to a wall cabinet that houses the recording and network equipment.",
+      "challenge": null, "solution": null, "outcome": null, "location": null
+    },
+    {
+      "id": "wall-mounted-network-cabinet",
+      "title": "Wall-mounted network cabinet",
+      "category": "Network installations",
+      "images": [{ "base": "project-network-cabinet", "sizes": [480, 960], "w": 750, "h": 1000, "alt": "Wall-mounted glass-front network cabinet with a switch, wireless equipment and an access point" }],
+      "summary": "A wall-mounted, lockable cabinet holding a network switch, wireless equipment and an access point, with cabling routed neatly through a flexible conduit.",
+      "challenge": null, "solution": null, "outcome": null, "location": null
+    },
+    {
+      "id": "outdoor-wireless-link",
+      "title": "Outdoor wireless link",
+      "category": "Network installations",
+      "images": [{ "base": "project-wireless-link", "sizes": [480, 960], "w": 750, "h": 1000, "alt": "Outdoor dish antenna mounted on a tall mast next to a water-tank stand with palm trees behind" }],
+      "summary": "An outdoor dish antenna mounted on a mast, used to carry a wireless connection between locations.",
+      "challenge": null, "solution": null, "outcome": null, "location": null
+    },
+    {
+      "id": "wall-mounted-router",
+      "title": "Wall-mounted router",
+      "category": "Router deployments",
+      "images": [{ "base": "project-wall-router", "sizes": [480, 960], "w": 750, "h": 1000, "alt": "White Wi-Fi router mounted high on a wall with cables neatly clipped down to power sockets" }],
+      "summary": "A router mounted high on the wall for better coverage, with cables clipped and routed tidily to the power outlets.",
+      "challenge": null, "solution": null, "outcome": null, "location": null
+    },
+    { "id": "ph-smart", "title": "Smart automation project", "category": "Smart automation", "placeholder": true },
+    { "id": "ph-gaming", "title": "Gaming setup project", "category": "Gaming setups", "placeholder": true },
+    { "id": "ph-repair", "title": "Repair work", "category": "Repair work", "placeholder": true },
+    { "id": "ph-training", "title": "Training session", "category": "Training sessions", "placeholder": true }
+  ]
+}
