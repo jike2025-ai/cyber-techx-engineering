@@ -29,7 +29,7 @@ ctx.site = site;
 
 // ---- cache-busting hashes for CSS/JS
 const hashFile = (p) => createHash('sha1').update(readFileSync(join(ROOT, p))).digest('hex').slice(0, 8);
-for (const p of ['assets/css/main.css', 'assets/js/main.js', 'assets/js/boot.js', 'assets/js/assistant.js']) {
+for (const p of ['assets/css/main.css', 'assets/css/fx.css', 'assets/js/main.js', 'assets/js/fx.js', 'assets/js/boot.js', 'assets/js/assistant.js']) {
   if (existsSync(join(ROOT, p))) ctx.assetV['/' + p] = hashFile(p);
 }
 
