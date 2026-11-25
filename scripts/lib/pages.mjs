@@ -62,7 +62,9 @@ const pill = (t) => `<span class="badge">${esc(t)}</span>`;
 
 /* ---------- pages ---------- */
 export function buildPages(data) {
-  const { site, services, products, projects, faqs, misc, policies } = data;
+  const { site, services, products, projects, faqs, misc, policies, founder } = data;
+  const fImg = (cls = '') => `<div class="portrait ${cls}"><img src="${founder.photo.src480}" srcset="${founder.photo.src480} 480w, ${founder.photo.src800} 800w" sizes="(min-width: 900px) 380px, 80vw" width="480" height="600" alt="${esc(founder.photo.alt)}" loading="lazy"></div>`;
+  const founderTeaser = () => `<section class="section" aria-labelledby="fnd-h"><div class="container"><div class="founder-teaser card reveal">${fImg('sm')}<div><p class="eyebrow">Meet the founder</p><h2 id="fnd-h">${esc(founder.name)}, aka “${esc(founder.alias)}”</h2><p class="lead">${esc(founder.intro)}</p><div class="btn-row">${btn('Read the full story', '/founder/', 'primary')}${btn('Book a Consultation', '/consultation/', 'outline')}</div></div></div></div></section>`;
   const svc = (id) => services.services.find((s) => s.id === id);
   const pages = [];
   const add = (p) => pages.push(p);
@@ -126,6 +128,7 @@ ${section(`${sectionHead({ eyebrow: 'Projects', title: 'From our installations',
 
 ${section(testimonialsBlock(site, misc), { labelledby: 'testimonials-h' })}
 
+${founderTeaser()}
 ${ctaBand({ title: 'Ready to upgrade your technology?', text: 'Tell us what you need. We will review your request and get back to you.', actions: `${btn('Book a Consultation', '/consultation/', 'primary')}${btn('Request a Quote', '/consultation/?type=quote', 'outline')}` })}
 
 ${faqPreview(faqs)}
@@ -293,12 +296,32 @@ ${ctaBand({ title: 'Have a project in mind?', text: 'Tell us about your space an
     });
   }
 
+
+  /* FOUNDER */
+  {
+    const f = founder;
+    const hl = f.highlights.map((h) => `<li class="stat card reveal"><span class="stat-n" data-count="${h.value}" data-dec="${h.decimals || 0}" data-suffix="${esc(h.suffix || '')}">${h.value}${esc(h.suffix || '')}</span><span class="stat-l">${esc(h.label)}</span></li>`).join('');
+    const tl = (items) => `<ol class="timeline">${items.map((e) => `<li class="reveal"><span class="tl-when">${esc(e.period)}</span><div><h3>${esc(e.title)}</h3><p>${esc(e.org)}</p></div></li>`).join('')}</ol>`;
+    const links = f.links.filter((l) => /^https:\/\//.test(l.url)).map((l) => `<a class="btn btn-outline" href="${esc(l.url)}" target="_blank" rel="noopener noreferrer"><span>${esc(l.label)}</span></a>`).join('');
+    add({
+      path: '/founder/', title: `Meet the Founder: ${f.name}`,
+      description: `${f.name} (${f.alias}) is the founder and CEO of Cyber_Techx Engineering in Awka, Anambra: a Systems Engineer with experience in networking, cloud and cybersecurity.`,
+      body: `${pageHero({ eyebrow: 'Meet the founder', title: `${esc(f.name)} <span class="grad">aka “${esc(f.alias)}”</span>`, lead: esc(f.tagline), trail: trailFor('Founder', '/founder/'), actions: `${btn('Book a Consultation', '/consultation/', 'primary')}${btn('Contact us', '/contact/', 'outline')}`, media: fImg() })}
+${section(`<div class="two-col"><div>${sectionHead({ eyebrow: 'The story', title: `Who is behind ${esc(site.name)}`, id: 'story-h' })}<p class="big">${esc(f.intro)}</p>${f.story.map((t) => `<p>${esc(t)}</p>`).join('')}<p class="muted">${esc(f.role)} · ${esc(f.location)}</p></div><div>${sectionHead({ eyebrow: 'Focus areas', title: 'Skills', id: 'skills-h' })}${chips(f.skills)}<h3 class="spaced">Interests</h3>${chips(f.interests)}</div></div>`, { labelledby: 'story-h' })}
+${section(`${sectionHead({ eyebrow: 'Track record', title: 'Career highlights', lead: esc(f.highlightsNote), center: true, id: 'hl-h' })}<ul class="stat-grid">${hl}</ul>`, { cls: 'section-alt', labelledby: 'hl-h' })}
+${section(`<div class="two-col"><div>${sectionHead({ eyebrow: 'Experience', title: 'Where Judah has worked', id: 'exp-h' })}${tl(f.experience)}</div><div>${sectionHead({ eyebrow: 'Education', title: 'Education', id: 'edu-h' })}${tl(f.education)}</div></div>`, { labelledby: 'exp-h' })}
+${section(`<div class="two-col"><article class="card reveal"><p class="eyebrow">Where we are going</p><h3>Career aspirations</h3>${ticks(f.aspirations)}</article><article class="card reveal"><p class="eyebrow">Connect</p><h3>Find Judah online</h3><p>See the wider portfolio and professional profile.</p><div class="btn-row">${links}</div></article></div>`, { cls: 'section-alt' })}
+${ctaBand({ title: 'Work with Cyber_Techx', text: 'Tell us what you want to achieve and we will take it from there.', actions: `${btn('Book a Consultation', '/consultation/', 'primary')}${btn('Request a Quote', '/consultation/?type=quote', 'outline')}` })}`,
+      schema: [crumbsLd(trailFor('Founder', '/founder/')), { '@context': 'https://schema.org', '@type': 'Person', name: f.name, alternateName: f.alias, jobTitle: f.role, worksFor: { '@type': 'Organization', name: site.name }, address: { '@type': 'PostalAddress', addressLocality: 'Awka', addressRegion: 'Anambra', addressCountry: 'NG' }, sameAs: f.links.filter((l) => /linkedin/.test(l.url)).map((l) => l.url) }],
+    });
+  }
+
   /* ABOUT */
   {
     add({
       path: '/about/', title: 'About Us', description: 'Cyber_Techx Engineering brings products, installation, consultation, technical support and technology education together under one trusted brand in Awka, Anambra.',
       body: `${pageHero({ eyebrow: 'About us', title: 'Technology you can understand, trust and use', lead: 'Cyber_Techx Engineering brings products, installation, consultation, technical support, and technology education together under one trusted brand.', trail: trailFor('About', '/about/'), media: `<div class="logo-panel"><img src="/assets/img/logo-640.png" width="640" height="415" alt="${esc(site.name)} logo"></div>` })}
-${section(`<div class="two-col"><div>${sectionHead({ eyebrow: 'Who we are', title: 'Who we are', id: 'who-h' })}<p>${esc(site.description)}</p><p>We do more than sell technology. We help customers select, install, configure, understand, maintain, and improve technology that makes their environments safer, smarter, faster, and more connected.</p><p>We help customers move from simply buying technology to actually understanding, implementing, and benefiting from it.</p></div><div class="card placeholder-card"><span class="badge">To be added</span><h3>Our story and team</h3><p>Our founding story, team profiles and credentials will be added here once they are ready to share.</p></div></div>`, { labelledby: 'who-h' })}
+${section(`<div class="two-col"><div>${sectionHead({ eyebrow: 'Who we are', title: 'Who we are', id: 'who-h' })}<p>${esc(site.description)}</p><p>We do more than sell technology. We help customers select, install, configure, understand, maintain, and improve technology that makes their environments safer, smarter, faster, and more connected.</p><p>We help customers move from simply buying technology to actually understanding, implementing, and benefiting from it.</p></div><a class="card founder-mini" href="/founder/">${fImg('xs')}<div><p class="eyebrow">Meet the founder</p><h3>${esc(founder.name)}</h3><p>${esc(founder.role)}. Read the story behind ${esc(site.name)}.</p><span class="btn-link">Meet Judah ${'→'}</span></div></a></div>`, { labelledby: 'who-h' })}
 ${section(`<div class="two-col"><article class="card reveal"><p class="eyebrow">Our mission</p><p class="big">Help people and businesses confidently adopt reliable, secure, and useful technology.</p></article><article class="card reveal"><p class="eyebrow">Our vision</p><p class="big">Build Cyber_Techx Engineering into a trusted technology solutions brand known for connecting security, automation, networking, products, education, and professional support.</p></article></div>`, { cls: 'section-alt' })}
 ${section(`${sectionHead({ eyebrow: 'Our values', title: 'What we stand for', center: true, id: 'val-h' })}${featureGrid(services.values, 3)}`, { labelledby: 'val-h' })}
 ${section(`${sectionHead({ eyebrow: 'How we work', title: 'How we work', id: 'how-h' })}${processSteps(services.process)}`, { cls: 'section-alt', labelledby: 'how-h' })}

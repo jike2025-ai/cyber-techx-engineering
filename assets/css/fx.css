@@ -120,3 +120,14 @@
   .fx-canvas, .fx-burst, .fx-glow, .fx-progress { display: none !important; }
 }
 @media print { .fx-canvas, .fx-burst, .fx-glow, .fx-progress { display: none !important; } }
+
+@media (prefers-reduced-motion: no-preference) {
+  .portrait { background: conic-gradient(from var(--ang, 0deg), #00bfff, #8a2be2, #00ffff, #8a2be2, #00bfff); animation: fx-spin 6s linear infinite; }
+  @property --ang { syntax: "<angle>"; inherits: false; initial-value: 0deg; }
+  @keyframes fx-spin { to { --ang: 360deg; } }
+  .portrait::after { content: ""; position: absolute; inset: 3px; border-radius: inherit; pointer-events: none; background: linear-gradient(180deg, transparent 40%, rgba(0,255,255,.18) 50%, transparent 60%) 0 -100% / 100% 200% no-repeat; animation: fx-sweep 4.5s ease-in-out infinite; }
+  @keyframes fx-sweep { to { background-position: 0 200%; } }
+  .stat:hover .stat-n { filter: drop-shadow(0 0 12px rgba(0,255,255,.6)); }
+  .timeline li::before { transition: transform .3s, background-color .3s; } .timeline li:hover::before { transform: scale(1.35); background: var(--cyan); }
+  .founder-mini:hover .btn-link { text-decoration: underline; }
+}

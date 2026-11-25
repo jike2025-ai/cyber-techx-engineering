@@ -18,6 +18,7 @@ const data = {
   faqs: readJson('content/faqs.json'),
   misc: readJson('content/misc.json'),
   policies: readJson('content/policies.json'),
+  founder: readJson('content/founder.json'),
 };
 
 // ---- site URL: SITE_URL > Vercel production domain > '' (relative; no canonical/sitemap)

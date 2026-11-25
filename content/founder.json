@@ -1,0 +1,44 @@
+{
+  "_help": "Founder profile. All text on /founder/ and the founder teasers comes from here. Facts were taken from the owner's own portfolio (github.com/jike2025-ai/cos106-portfolio). Set a field to empty to hide it.",
+  "name": "Judah Ike",
+  "alias": "Cyber",
+  "role": "Founder, CEO & Technical Director",
+  "company": "Cyber_Techx Engineering",
+  "location": "Awka, Anambra State, Nigeria",
+  "photo": { "src480": "/assets/img/founder-480.webp", "src800": "/assets/img/founder-800.webp", "alt": "Portrait of Judah Ike, founder of Cyber_Techx Engineering" },
+  "tagline": "Systems Engineer. Cybersecurity student. Builder of Cyber_Techx.",
+  "intro": "Cyber_Techx Engineering is led by Judah Ike, known as Cyber: a Systems Engineer and IT professional with hands-on experience in network operations, IT support and cybersecurity.",
+  "story": [
+    "Judah is a curious, driven problem-solver from Anambra State. He has designed secure infrastructure, migrated more than 200 servers to Microsoft Azure and put endpoint protection in place that reduced security incidents by 45%.",
+    "He started Cyber_Techx Engineering in 2022 with one goal: help people and businesses adopt technology that is reliable, secure and genuinely useful, and understand what they are buying. Alongside running the company, he is studying for a B.Sc. in Cybersecurity at Miva Open University."
+  ],
+  "highlightsNote": "Career highlights from Judah's professional background.",
+  "highlights": [
+    { "value": 8, "suffix": "+", "label": "Years in IT and networks" },
+    { "value": 200, "suffix": "+", "label": "Servers migrated to Microsoft Azure" },
+    { "value": 45, "suffix": "%", "label": "Fewer security incidents after endpoint protection rollout" },
+    { "value": 99.9, "suffix": "%", "label": "Network uptime delivered", "decimals": 1 }
+  ],
+  "experience": [
+    { "period": "2022 – present", "title": "CEO & Technical Director", "org": "Cyber_Techx Engineering" },
+    { "period": "2021 – 2025", "title": "IT Support Engineer", "org": "Piheight System PHSWEB" },
+    { "period": "2017 – 2019", "title": "Specialist Desk Engineer (NOC)", "org": "IHS Towers" },
+    { "period": "2014 – 2015", "title": "Web Developer", "org": "Web Dreamcast" }
+  ],
+  "education": [
+    { "period": "2025 – 2028", "title": "B.Sc. Cybersecurity (in progress)", "org": "Miva Open University" },
+    { "period": "2015 – 2018", "title": "HND Marine Engineering (Second Class)", "org": "Maritime Academy of Nigeria, Oron" }
+  ],
+  "skills": ["Networking & infrastructure", "Cybersecurity", "Cloud (Microsoft Azure)", "Windows & Linux servers", "Python, PowerShell & Bash", "HTML, CSS & JavaScript", "Home automation", "IT support"],
+  "aspirations": [
+    "Lead secure cloud and infrastructure engineering teams",
+    "Grow Cyber_Techx Engineering into a trusted technology and IT consultancy",
+    "Specialise in cybersecurity, AI and blockchain solutions",
+    "Mentor young Nigerian technologists"
+  ],
+  "interests": ["Home automation", "Learning new tech", "Blockchain (Hedera)", "AI tools", "Problem solving", "Networking with people"],
+  "links": [
+    { "label": "LinkedIn", "url": "https://www.linkedin.com/in/judah-ike/" },
+    { "label": "Full portfolio on GitHub", "url": "https://github.com/jike2025-ai/cos106-portfolio" }
+  ]
+}

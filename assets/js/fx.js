@@ -193,4 +193,21 @@
     }, { threshold: .6 });
     labels.forEach(function (l) { lio.observe(l); });
   }
+
+  /* ---------- count-up numbers (final value is already in the HTML) ---------- */
+  var counters = $('[data-count]');
+  if ('IntersectionObserver' in window && counters.length) {
+    var cio = new IntersectionObserver(function (es) {
+      es.forEach(function (en) {
+        if (!en.isIntersecting) return; cio.unobserve(en.target);
+        var el = en.target, end = parseFloat(el.getAttribute('data-count')), dec = parseInt(el.getAttribute('data-dec') || '0', 10), suf = el.getAttribute('data-suffix') || '', t0 = performance.now(), dur = 1500;
+        (function step(t) {
+          var k = Math.min(1, (t - t0) / dur), e = 1 - Math.pow(1 - k, 3);
+          el.textContent = (end * e).toFixed(dec) + suf;
+          if (k < 1) raf(step); else el.textContent = end.toFixed(dec) + suf;
+        })(t0);
+      });
+    }, { threshold: .5 });
+    counters.forEach(function (c) { cio.observe(c); });
+  }
 })();
