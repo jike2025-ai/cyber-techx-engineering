@@ -127,7 +127,7 @@
 
   /* ---------- enquiry forms ---------- */
   const MESSAGES = {
-    required: (l) => `${l} is required.`, email: 'Enter a valid email address, for example name@example.com.', phone: 'Enter a valid phone number, for example 0813 530 3131.',
+    required: (l) => `${l} is required.`, email: 'Enter a valid email address, for example name@example.com.', phone: 'Enter a valid phone number, for example 0801 234 5678.',
     consent: 'Please tick the box to agree before sending.', pastDate: 'Please choose today or a future date.',
   };
   const labelOf = (el) => { const l = el.closest('.field')?.querySelector('label'); return l ? l.childNodes[0].textContent.trim() : el.name; };

@@ -255,7 +255,7 @@ ${ctaBand({ title: L.primary + '?', text: 'Send us your details. We review each 
     const fields = [
       `<div class="field is-full"><fieldset class="segmented"><legend>What would you like to do?</legend><label><input type="radio" name="requestType" value="consultation" checked><span>Book a consultation</span></label><label><input type="radio" name="requestType" value="quote"><span>Request a quote</span></label></fieldset></div>`,
       field({ id: 'fullName', label: 'Full name', required: true, autocomplete: 'name' }),
-      field({ id: 'phone', label: 'Phone / WhatsApp', type: 'tel', required: true, autocomplete: 'tel', attrs: 'inputmode="tel" pattern="[+0-9][0-9 ()+\\-]{6,19}"', hint: 'For example 0813 530 3131' }),
+      field({ id: 'phone', label: 'Phone / WhatsApp', type: 'tel', required: true, autocomplete: 'tel', attrs: 'inputmode="tel" pattern="[+0-9][0-9 ()+\\-]{6,19}"', hint: 'For example 0801 234 5678' }),
       field({ id: 'email', label: 'Email', type: 'email', autocomplete: 'email' }),
       field({ id: 'service', label: 'Service needed', required: true, options: f.serviceOptions }),
       field({ id: 'product', label: 'Product (if asking about a product)', hint: 'Filled automatically when you come from a product card.' }),

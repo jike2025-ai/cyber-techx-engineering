@@ -128,7 +128,7 @@
       if (!v) { if (current.required) { errorEl.textContent = 'This one is needed so we can help you.'; input.focus(); return; } user('Skipped'); return next(); }
       const bad = looksSensitive(v); if (bad) { errorEl.textContent = `That looks like ${bad}. Please do not share it here. We never need it.`; input.focus(); return; }
       if (current.min && v.length < current.min) { errorEl.textContent = 'Please add a little more detail.'; input.focus(); return; }
-      if (current.type === 'tel' && !/^[+0-9][0-9 ()+\-]{6,19}$/.test(v)) { errorEl.textContent = 'Please enter a valid phone number, for example 0813 530 3131.'; input.focus(); return; }
+      if (current.type === 'tel' && !/^[+0-9][0-9 ()+\-]{6,19}$/.test(v)) { errorEl.textContent = 'Please enter a valid phone number, for example 0801 234 5678.'; input.focus(); return; }
       if (current.type === 'email' && !/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(v)) { errorEl.textContent = 'Please enter a valid email address.'; input.focus(); return; }
       user(v); data.fields[current.key] = v; next();
     });
